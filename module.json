@@ -1,0 +1,50 @@
+{
+  "id": "pnp-sheet-printer",
+  "title": "PnP Sheet Printer",
+  "description": "Druckt dnd5e-Charaktere live aus Foundry in ausfüllbare PDF-Charakterbögen (Heldenbogen 5E; offizielle Bögen DE/EN als eigene PDFs einbindbar) – für das analoge Spiel am Tisch.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Dave"
+    }
+  ],
+  "url": "https://github.com/dave-bp/pnp-sheet-printer-releases",
+  "manifest": "https://raw.githubusercontent.com/dave-bp/pnp-sheet-printer-releases/main/module.json",
+  "download": "https://raw.githubusercontent.com/dave-bp/pnp-sheet-printer-releases/main/releases/v1.0.0/module.zip",
+  "readme": "https://github.com/dave-bp/pnp-sheet-printer-releases#readme",
+  "bugs": "https://github.com/dave-bp/pnp-sheet-printer-releases/issues",
+  "compatibility": {
+    "minimum": "14.367",
+    "verified": "14.369"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.6"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "styles": [
+    "styles/pnp-sheet-printer.css"
+  ],
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ]
+}
